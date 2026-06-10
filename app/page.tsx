@@ -30,7 +30,7 @@ const PROJECTS = [
     title: "Yandex Metrika Analytics Dashboard",
     description:
       "Reporting dashboard for traffic, conversions, and campaign performance. Built to replace manual checks across several tools.",
-    image: "/images/overview_dashboard_v2.jpg",
+    image: "/portfolio/images/overview_dashboard_v2.jpg",
     tags: ["Yandex Metrika", "PostgreSQL", "Power BI"],
     github: GITHUB,
   },
@@ -38,7 +38,7 @@ const PROJECTS = [
     title: "Multi-Source Website Analytics System",
     description:
       "Structured reporting workflow across channels with KPI consistency checks and data validation.",
-    image: "/images/grand-pognali.gif",
+    image: "/portfolio/images/grand-pognali.gif",
     tags: ["SQL", "PostgreSQL", "Power BI", "Data validation"],
     github: "https://github.com/ArtemHriharyan/crm-marketing-analytics",
   },
@@ -219,7 +219,7 @@ export default function Home() {
             <Button href="#projects" variant="primary">
               View Projects
             </Button>
-            <Button href="/cv.pdf">Download CV</Button>
+            <Button href="/portfolio/cv.pdf">Download CV</Button>
             <Button href={LINKEDIN} external>
               LinkedIn
             </Button>
