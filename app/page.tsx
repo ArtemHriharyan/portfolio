@@ -8,7 +8,7 @@ const NAV = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
-  { label: "CV", href: "/cv.pdf" },
+  { label: "CV", href: "/portfolio/cv.pdf" },
 ];
 
 const STACK = [
@@ -252,20 +252,43 @@ export default function Home() {
 
         <section id="how-i-work" className="scroll-mt-16 py-10 sm:py-11">
           <SectionHeading title="How I Work" />
-          <div className="mt-4 max-w-2xl space-y-3 text-sm leading-relaxed text-zinc-600">
-            <p>
-              I like working with messy or incomplete data and figuring out what’s still useful inside it.
-            </p>
-            <p>
-              Usually the goal isn’t just to clean reports or fix inconsistencies. It’s to understand what 
-              actually affects performance, where money gets wasted, what starts breaking first, or what can be 
-              improved before it becomes a bigger problem.
-            </p>
-            <p>
-              Most of the projects I’ve worked on were somewhere between analytics and operations: campaign 
-              performance, reporting workflows, KPI tracking, or identifying patterns that helped teams make 
-              faster and better decisions.
-            </p>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            <article className="border border-zinc-200 bg-white p-4 transition-colors duration-150 hover:border-zinc-300">
+              <p className="font-mono text-xs text-zinc-400">01</p>
+              <h3 className="mt-3 text-sm font-medium text-zinc-900">
+                Investigate
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-600">
+                Most datasets are incomplete in one way or another. Missing fields,
+                broken tracking, inconsistent reporting. I start by figuring out what
+                can be trusted and what cannot.
+              </p>
+            </article>
+
+            <article className="border border-zinc-200 bg-white p-4 transition-colors duration-150 hover:border-zinc-300">
+              <p className="font-mono text-xs text-zinc-400">02</p>
+              <h3 className="mt-3 text-sm font-medium text-zinc-900">
+                I look for bottlenecks
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-600">
+                Where does performance drop? Where is budget wasted? What breaks first
+                when things start going wrong? Those questions are usually more useful
+                than another KPI.
+              </p>
+            </article>
+
+            <article className="border border-zinc-200 bg-white p-4 transition-colors duration-150 hover:border-zinc-300">
+              <p className="font-mono text-xs text-zinc-400">03</p>
+              <h3 className="mt-3 text-sm font-medium text-zinc-900">
+                Analysis should change decisions
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-600">
+                A report is not the final result. The final result is a better
+                decision, a faster process, or a clearer understanding of what's
+                happening.
+              </p>
+            </article>
           </div>
         </section>
 
@@ -384,7 +407,7 @@ export default function Home() {
             </div>
           </dl>
           <div className="mt-6">
-            <Button href="/cv.pdf">Download CV</Button>
+            <Button href="/portfolio/cv.pdf">Download CV</Button>
           </div>
         </section>
 
