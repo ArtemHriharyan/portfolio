@@ -29,15 +29,15 @@ const PROJECTS = [
   {
     title: "Yandex Metrika Analytics Dashboard",
     description:
-      "Reporting dashboard for traffic, conversions, and campaign performance. Built to replace manual checks across several tools.",
+      "Real-world web analytics pipeline built around Yandex Metrika data. Includes ETL processing, SQL modeling, and dashboard development.",
     image: "/portfolio/images/overview_dashboard_v2.jpg",
     tags: ["Yandex Metrika", "PostgreSQL", "Power BI"],
-    github: GITHUB,
+    github: "https://github.com/ArtemHriharyan/Yandex_metrika-analytics",
   },
   {
-    title: "Multi-Source Website Analytics System",
+    title: "Marketing Analytics and Attribution System",
     description:
-      "Structured reporting workflow across channels with KPI consistency checks and data validation.",
+      "Marketing analytics system combining CRM, web analytics, SEO, and advertising data in PostgreSQL and Power BI. Built to estimate channel performance, acquisition costs, and revenue contribution when direct attribution was missing.",
     image: "/portfolio/images/grand-pognali.gif",
     tags: ["SQL", "PostgreSQL", "Power BI", "Data validation"],
     github: "https://github.com/ArtemHriharyan/crm-marketing-analytics",
@@ -169,7 +169,7 @@ function ProjectCard({
         </ul>
         <div className="mt-4">
           <Button href={github} external>
-            GitHub
+            View Repository
           </Button>
         </div>
       </div>
@@ -323,20 +323,36 @@ export default function Home() {
               <ul className="mt-3 space-y-1.5 text-sm text-zinc-600">
                 <li className="flex gap-2">
                   <span className="text-zinc-300">—</span>
-                  <span>Built dashboards for campaign and KPI tracking</span>
+                  <span>
+                    Worked with marketing and web analytics data across 50+ client projects
+                  </span>
                 </li>
-                <li className="flex gap-2">
-                  <span className="text-zinc-300">—</span>
-                  <span>Analyzed CPA, CTR, CR, and traffic performance</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-zinc-300">—</span>
-                  <span>Prepared recurring reports for clients</span>
-                </li>
+
                 <li className="flex gap-2">
                   <span className="text-zinc-300">—</span>
                   <span>
-                    Worked with reporting workflows and operational analytics
+                    Built Power BI dashboards for KPI tracking, campaign reporting, and performance analysis
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Analyzed campaign performance using CTR, CR, CPA, ROI, conversion funnels, and traffic quality metrics
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Investigated user behavior and acquisition channels using Yandex Metrika, Wordstat, and Webmaster
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Supported marketing teams with reporting, performance analysis, and campaign optimization recommendations
                   </span>
                 </li>
               </ul>
@@ -349,17 +365,35 @@ export default function Home() {
                 <li className="flex gap-2">
                   <span className="text-zinc-300">—</span>
                   <span>
-                    Improved operational workflows and reporting processes
+                    Analyzed operational workflows and helped improve vehicle registration processes
                   </span>
                 </li>
-                <li className="flex gap-2">
-                  <span className="text-zinc-300">—</span>
-                  <span>Coordinated high-volume operational tasks</span>
-                </li>
+
                 <li className="flex gap-2">
                   <span className="text-zinc-300">—</span>
                   <span>
-                    Worked with performance tracking and process optimization
+                    Reduced operational costs from approximately $200–300 to $10–15 per vehicle through process optimization
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Worked with operational reporting, performance tracking, and workflow coordination
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Coordinated communication with international clients and partners, including Chinese and German companies
+                  </span>
+                </li>
+
+                <li className="flex gap-2">
+                  <span className="text-zinc-300">—</span>
+                  <span>
+                    Led a team of 8 employees during high-volume operational periods
                   </span>
                 </li>
               </ul>
