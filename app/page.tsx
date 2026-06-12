@@ -361,7 +361,7 @@ export default function Home() {
               <h3 className="text-sm font-medium text-zinc-900">
                 Logistics Operations
               </h3>
-              <h3 className="text-sm font-medium text-zinc-900">
+              <p className="mt-0.5 text-xs text-zinc-500">
                 Jenty
               </h3>
               <ul className="mt-3 space-y-1.5 text-sm text-zinc-600">
