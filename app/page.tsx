@@ -315,10 +315,10 @@ export default function Home() {
           <div className="mt-6 grid gap-8 sm:grid-cols-2">
             <div>
               <h3 className="text-sm font-medium text-zinc-900">
-                Site Elite Studio
+                Marketing Data Analyst
               </h3>
               <p className="mt-0.5 text-xs text-zinc-500">
-                Marketing Data Analyst
+                Site Elite Studio
               </p>
               <ul className="mt-3 space-y-1.5 text-sm text-zinc-600">
                 <li className="flex gap-2">
@@ -360,6 +360,9 @@ export default function Home() {
             <div>
               <h3 className="text-sm font-medium text-zinc-900">
                 Logistics Operations
+              </h3>
+              <h3 className="text-sm font-medium text-zinc-900">
+                Jenty
               </h3>
               <ul className="mt-3 space-y-1.5 text-sm text-zinc-600">
                 <li className="flex gap-2">
