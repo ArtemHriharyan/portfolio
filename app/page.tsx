@@ -363,7 +363,7 @@ export default function Home() {
               </h3>
               <p className="mt-0.5 text-xs text-zinc-500">
                 Jenty
-              </h3>
+              </p>
               <ul className="mt-3 space-y-1.5 text-sm text-zinc-600">
                 <li className="flex gap-2">
                   <span className="text-zinc-300">—</span>
